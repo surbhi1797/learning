@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="code.cpp" />
+    <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

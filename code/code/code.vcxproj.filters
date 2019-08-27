@@ -24,5 +24,8 @@
     <ClCompile Include="Fibonacci.cpp">
       <Filter>Recursion</Filter>
     </ClCompile>
+    <ClCompile Include="Factorial.cpp">
+      <Filter>Recursion</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

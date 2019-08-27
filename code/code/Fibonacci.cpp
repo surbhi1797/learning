@@ -12,7 +12,7 @@ int fibonacci(int n)
 	}
 }
 
-int main()
+int main_1()
 {
 	cout << "\n---------------------------\n" << fibonacci(5);
 	return 0;
