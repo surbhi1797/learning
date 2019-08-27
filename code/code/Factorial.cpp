@@ -12,7 +12,7 @@ int Factorial(int n)
 	}
 }
 
-int main()
+int main_2()
 {
 	cout << "\n---------------------------\n" << Factorial(5);
 	return 0;
