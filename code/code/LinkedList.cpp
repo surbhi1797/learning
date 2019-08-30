@@ -30,7 +30,7 @@ public:
 		}
 	}
 
-	int append(int data)
+	void append(int data)
 	{
 	
 		struct node* temp;
@@ -56,7 +56,27 @@ public:
 			}
 			ptr->link = temp;
 		}
-		return 0;
+	
+	}
+
+	int length()
+	{
+		int cnt = 0;
+
+		node* temp = root;
+		if (temp == NULL)
+		{
+			return 0;
+		}
+		else
+		{
+			while (temp != NULL)
+			{
+				cnt++;
+				temp = temp->link;
+			}
+			return cnt;
+		}
 	}
 };
 
