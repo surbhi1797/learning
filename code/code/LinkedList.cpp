@@ -28,6 +28,8 @@ public:
 				temp = temp->link;
 			}
 		}
+
+		cout << endl << "*******" << endl;
 	}
 
 	void append(int data)
@@ -133,6 +135,58 @@ public:
 			root = temp;
 		}
 	}
+
+	void delbeg()
+	{
+		if (root == NULL)
+		{
+			cout << "List i empty";
+		}
+
+		else
+		{
+			
+			root=root->link;
+		
+		}
+		
+	}
+
+	void delpos(int loc)
+	{
+	
+		int i=1;
+
+		if (loc > length() || loc<0)
+		{
+			cout << "Invalid Location";
+
+		}
+		else if (loc == 1)
+		{
+			delbeg();
+		}
+
+		else
+		{
+			node* p=root, *q;
+			while (i < loc - 1)
+			{
+				p = p->link;
+				i++;
+			}
+			
+			q = p->link;
+			p->link = q->link;
+
+			q->link = NULL;
+			free(q);
+			
+
+		}
+		}
+
+
 
 };
 

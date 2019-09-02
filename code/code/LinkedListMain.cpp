@@ -19,5 +19,8 @@ int main()
 	ll->addmiddle(11);
 	ll->addbegin(15);
 	ll->display();
+	//ll->delbeg();
+	ll->delpos(ll->length());
+	ll->display();
 	return 0;
 }
