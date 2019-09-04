@@ -15,12 +15,14 @@ int main()
 	ll->append(2);
 	cout << "Length= " << ll->length() << endl;
 	ll->append(3);
-	ll->addafter(2, 9);
+	//ll->addafter(2, 9);
 	ll->addmiddle(11);
 	ll->addbegin(15);
+	ll->append(13);
 	ll->display();
 	//ll->delbeg();
-	ll->delpos(ll->length());
-	ll->display();
+	//ll->delpos(ll->length());
+	//ll->display();
+	cout<<"Middle of list is: "<<ll->mid();
 	return 0;
 }

@@ -186,6 +186,19 @@ public:
 		}
 		}
 
+	int mid()
+	{
+		node* fast=root, * slow=root;
+		while (fast != NULL && fast->link !=NULL)
+		{
+			fast = fast->link->link;
+			slow = slow->link;
+		}
+
+		return slow->data;
+
+	}
+
 
 
 };
