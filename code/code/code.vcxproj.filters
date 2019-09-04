@@ -36,5 +36,11 @@
     <ClCompile Include="LinkedListMain.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="DoublyLinkedList.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinkedListMain.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

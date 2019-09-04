@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+int main_3()
 {	
 	/*int data;
 	cout << "Enter node data";
