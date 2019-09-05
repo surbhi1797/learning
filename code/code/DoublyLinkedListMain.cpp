@@ -12,6 +12,9 @@ int main()
 	dll->append(2);
 	dll->append(3);
 	dll->append(4);
+	dll->addbeg(0);
 	dll->display();
+	dll->displayRev();
+	cout<<"Length of list is: "<<dll->length();
 
 }
