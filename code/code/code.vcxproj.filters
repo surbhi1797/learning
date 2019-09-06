@@ -42,5 +42,11 @@
     <ClCompile Include="DoublyLinkedListMain.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularLinkedListMain.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

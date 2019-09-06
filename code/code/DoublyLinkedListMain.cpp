@@ -14,7 +14,9 @@ int main()
 	dll->append(4);
 	dll->addbeg(0);
 	dll->display();
-	dll->displayRev();
+	//dll->displayRev();
+	dll->addPos(20,3);
+	dll->display();
 	cout<<"Length of list is: "<<dll->length();
 
 }

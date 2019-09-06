@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CircularLinkedList.cpp" />
+    <ClCompile Include="CircularLinkedListMain.cpp" />
     <ClCompile Include="code.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="DoublyLinkedListMain.cpp" />

@@ -134,4 +134,40 @@ public:
 		return count;
 	}
 
-};
+	void addPos(int data, int pos)
+	{
+		doubly* temp;
+
+		temp = new doubly;
+		temp->data = data;
+		temp->left = NULL;
+		temp->right = NULL;
+
+		if (pos > length())
+		{
+			cout << "Invalid location";
+			cout << "List has" << length() << "nodes";
+		}
+
+		else if (pos == 1)
+		{
+			addbeg(data);
+		}
+
+		else 
+		{
+			doubly* p=root;
+			int i = 1;
+			while (i < pos-1)
+			{
+				p = p->right;
+				i++;
+			}
+			temp->right = p->right;
+			p->right->left = temp;
+			p->right = temp;
+			temp->left = p;
+		}
+
+	}
+}; 
