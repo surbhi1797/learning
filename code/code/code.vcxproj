@@ -158,6 +158,7 @@
     <ClCompile Include="DoublyLinkedListMain.cpp" />
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="IsLinkedListCircular.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LinkedListMain.cpp" />
   </ItemGroup>

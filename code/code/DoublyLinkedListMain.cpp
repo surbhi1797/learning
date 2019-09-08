@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main()
+void main_4()
 {
 	DoublyLinkedList* dll = new DoublyLinkedList();
 
