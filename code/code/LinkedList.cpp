@@ -199,6 +199,59 @@ public:
 
 	}
 
+	int poslast(int pos)
+	{
+		int count = 1;
+		node* p = root, * q = root;
+
+		for (count = 1; count <= pos; count++)
+		{
+			q = q->link;
+
+		}
+		while (q != NULL)
+		{
+			q = q->link;
+			p = p->link;
+		}
+
+		return p->data;
+	
+	}
+
+	void revlist()
+	{
+		node* temp = NULL, * next = NULL;
+		while (root != NULL)
+		{
+			next = root->link;
+			root->link = temp;
+			temp = root;
+			root = next;
+		}
+		root = temp;
+		
+	}
+
+	void sort()
+	{
+		for (int i = 0; i < length(); i++)
+		{
+
+			node* temp = root;
+			int p;
+			while (temp->link != NULL)
+			{
+				if (temp->data > temp->link->data)
+				{
+					p = temp->data;
+					temp->data = temp->link->data;
+					temp->link->data = p;
+				}
+				temp = temp->link;
+			}
+		}
+	}
 
 
 };

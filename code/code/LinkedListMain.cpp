@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main_3()
+int main()
 {	
 	/*int data;
 	cout << "Enter node data";
@@ -23,6 +23,12 @@ int main_3()
 	//ll->delbeg();
 	//ll->delpos(ll->length());
 	//ll->display();
-	cout<<"Middle of list is: "<<ll->mid();
+	cout<<"Middle of list is: "<<ll->mid()<<endl;
+	cout << "Data is: " << ll->poslast(4)<<endl;
+	ll->revlist();
+	ll->display();
+	ll->sort();
+	ll->display();
+
 	return 0;
 }

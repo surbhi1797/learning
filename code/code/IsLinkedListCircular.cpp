@@ -47,7 +47,7 @@ public:
 	}
 };
 
-void main()
+void main_7()
 {
 	node* head = NULL;
 
