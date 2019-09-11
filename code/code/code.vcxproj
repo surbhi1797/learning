@@ -161,6 +161,7 @@
     <ClCompile Include="IsLinkedListCircular.cpp" />
     <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="LinkedListMain.cpp" />
+    <ClCompile Include="LinkedListMergingPoint.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

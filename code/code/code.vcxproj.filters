@@ -51,5 +51,8 @@
     <ClCompile Include="IsLinkedListCircular.cpp">
       <Filter>LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedListMergingPoint.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
