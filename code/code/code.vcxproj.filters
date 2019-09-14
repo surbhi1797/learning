@@ -19,6 +19,9 @@
     <Filter Include="LinkedList">
       <UniqueIdentifier>{a5f824c8-f2f6-43dc-a291-75d8d0e3f9f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{029e5f9b-683f-4727-9281-080f48709231}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code.cpp">
@@ -53,6 +56,18 @@
     </ClCompile>
     <ClCompile Include="LinkedListMergingPoint.cpp">
       <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="StackArray.cpp">
+      <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StackArrayMain.cpp">
+      <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StackLinkedList.cpp">
+      <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="StackLinkedListMain.cpp">
+      <Filter>Stack</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

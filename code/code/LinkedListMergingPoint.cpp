@@ -103,7 +103,7 @@ public:
 	}
 };
 
-void main()
+void main_8()
 {
 	node* p = NULL, *q = NULL;
 

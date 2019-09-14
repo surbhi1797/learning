@@ -45,9 +45,36 @@ public:
 		
 
 	}
+
+	int startPoint(node* head)
+	{
+		node* slow = head->next;
+		node* fast = head->next->next;
+		while (fast != NULL && fast->next != NULL)
+		{
+			if (slow == fast)
+			{
+				break;
+			}
+			slow = slow->next;
+			fast = fast->next->next;
+
+			
+		}
+		slow = head;
+		while (slow != fast)
+		{
+			slow = slow->next;
+			fast = fast->next;
+		}
+		return slow->data;
+
+
+
+	}
 };
 
-void main_7()
+void main()
 {
 	node* head = NULL;
 
@@ -81,7 +108,8 @@ void main_7()
 	c->next = d;
 	d->next = e;
 	e->next = f;
-	//f->next = c;
+	f->next = c;
 	//head->display(head);
-	cout << " is circular : " << head->isCircular( head);
+	cout << " is circular : " << head->isCircular( head)<<endl;
+	cout << "Starting Point: " << head->startPoint(head);
 }
