@@ -151,6 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddLinkedListMain.cpp" />
+    <ClCompile Include="BinarSearch.cpp" />
     <ClCompile Include="CircularLinkedList.cpp" />
     <ClCompile Include="CircularLinkedListMain.cpp" />
     <ClCompile Include="code.cpp" />
@@ -158,15 +160,22 @@
     <ClCompile Include="DoublyLinkedListMain.cpp" />
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="findMax.cpp" />
+    <ClCompile Include="findmaxmin.cpp" />
     <ClCompile Include="IsLinkedListCircular.cpp" />
+    <ClCompile Include="LinearSearch.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="LinkedListInsertAtBeginning.cpp" />
     <ClCompile Include="LinkedListMain.cpp" />
     <ClCompile Include="LinkedListMergingPoint.cpp" />
+    <ClCompile Include="RemoveDuplicates.cpp" />
+    <ClCompile Include="RevrseString.cpp" />
     <ClCompile Include="SortMerge.cpp" />
     <ClCompile Include="StackArray.cpp" />
     <ClCompile Include="StackArrayMain.cpp" />
     <ClCompile Include="StackLinkedList.cpp" />
     <ClCompile Include="StackLinkedListMain.cpp" />
+    <ClCompile Include="SumOfNumbers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

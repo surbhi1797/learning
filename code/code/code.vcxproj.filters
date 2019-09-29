@@ -22,6 +22,15 @@
     <Filter Include="Stack">
       <UniqueIdentifier>{029e5f9b-683f-4727-9281-080f48709231}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Extras">
+      <UniqueIdentifier>{eaa777cd-a325-4c19-b0ad-a58bf633bdd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HackerRank">
+      <UniqueIdentifier>{dd3064c9-3cf5-48a1-b535-be1ba1d385cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HashMap">
+      <UniqueIdentifier>{100872cb-127a-4e2b-a334-6e626179f1eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="code.cpp">
@@ -68,6 +77,36 @@
     </ClCompile>
     <ClCompile Include="StackLinkedListMain.cpp">
       <Filter>Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMerge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SumOfNumbers.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="AddLinkedListMain.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedListInsertAtBeginning.cpp">
+      <Filter>HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicates.cpp">
+      <Filter>HashMap</Filter>
+    </ClCompile>
+    <ClCompile Include="findmaxmin.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="LinearSearch.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarSearch.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="RevrseString.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="findMax.cpp">
+      <Filter>Extras</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

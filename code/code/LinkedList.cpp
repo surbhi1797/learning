@@ -97,7 +97,7 @@ public:
 		else
 		{
 			p = root;
-			while (i < loc)
+			while (i < loc-1)
 			{
 				p=p->link;
 				i++;
