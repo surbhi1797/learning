@@ -108,5 +108,26 @@
     <ClCompile Include="findMax.cpp">
       <Filter>Extras</Filter>
     </ClCompile>
+    <ClCompile Include="3largest.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="2smallest.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatedElements.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="binary2decimal.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Decimal2Binary.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialRecursion.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciSeries.cpp">
+      <Filter>Extras</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

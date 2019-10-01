@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+int main_19()
 {
 	int arr[50], i, n, max = 0;
 	cout << "Enter no elements in array:";

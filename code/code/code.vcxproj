@@ -151,15 +151,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2smallest.cpp" />
+    <ClCompile Include="3largest.cpp" />
     <ClCompile Include="AddLinkedListMain.cpp" />
     <ClCompile Include="BinarSearch.cpp" />
+    <ClCompile Include="binary2decimal.cpp" />
     <ClCompile Include="CircularLinkedList.cpp" />
     <ClCompile Include="CircularLinkedListMain.cpp" />
     <ClCompile Include="code.cpp" />
+    <ClCompile Include="Decimal2Binary.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="DoublyLinkedListMain.cpp" />
     <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="FactorialRecursion.cpp" />
     <ClCompile Include="Fibonacci.cpp" />
+    <ClCompile Include="FibonacciSeries.cpp" />
     <ClCompile Include="findMax.cpp" />
     <ClCompile Include="findmaxmin.cpp" />
     <ClCompile Include="IsLinkedListCircular.cpp" />
@@ -169,6 +175,7 @@
     <ClCompile Include="LinkedListMain.cpp" />
     <ClCompile Include="LinkedListMergingPoint.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
+    <ClCompile Include="RepeatedElements.cpp" />
     <ClCompile Include="RevrseString.cpp" />
     <ClCompile Include="SortMerge.cpp" />
     <ClCompile Include="StackArray.cpp" />
