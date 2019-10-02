@@ -156,6 +156,7 @@
     <ClCompile Include="AddLinkedListMain.cpp" />
     <ClCompile Include="BinarSearch.cpp" />
     <ClCompile Include="binary2decimal.cpp" />
+    <ClCompile Include="carry.cpp" />
     <ClCompile Include="CircularLinkedList.cpp" />
     <ClCompile Include="CircularLinkedListMain.cpp" />
     <ClCompile Include="code.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="LinkedListInsertAtBeginning.cpp" />
     <ClCompile Include="LinkedListMain.cpp" />
     <ClCompile Include="LinkedListMergingPoint.cpp" />
+    <ClCompile Include="PrimeNo.cpp" />
     <ClCompile Include="RemoveDuplicates.cpp" />
     <ClCompile Include="RepeatedElements.cpp" />
     <ClCompile Include="RevrseString.cpp" />

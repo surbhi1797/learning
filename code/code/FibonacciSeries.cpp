@@ -30,7 +30,7 @@ int fibonacci_loop(int n)
 	
 }
 
-int main()
+int main_26()
 {
 	int n;
 	cout << "Enter a positive integer"<<endl;
